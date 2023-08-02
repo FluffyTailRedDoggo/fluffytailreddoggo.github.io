@@ -1,10 +1,12 @@
+
+
 require(['require', 'directory-tree'], function(require){
     const dirTree = require("directory-tree");
     const tree = dirTree("res/", ['.jpg', '.png']);
     
     console.log(tree)
   
-    var default_image = "https://raw.githubusercontent.com/FluffyTailRedDoggo/fluffytailreddoggo.github.io/icons/folder.png"
+    var default_image = "https://raw.githubusercontent.com/FluffyTailRedDoggo/fluffytailreddoggo.github.io/main/icons/folder.png"
     
     make_array = function(prefix, basepath, localpath){
         var tree = dirTree(basepath + localpath, ['.jpg', '.png', '']);
@@ -25,7 +27,7 @@ require(['require', 'directory-tree'], function(require){
         return output
     }
       
-    var default_basepath = "https://raw.githubusercontent.com/FluffyTailRedDoggo/fluffytailreddoggo.github.io/"
+    var default_basepath = "https://raw.githubusercontent.com/FluffyTailRedDoggo/fluffytailreddoggo.github.io/main/"
     var res_folder = 'res/'
     
     $.each(make_array(default_basepath, res_folder, ""), function(i) {

@@ -3,6 +3,12 @@
     "@types/crawler": "^1.2.2"
   },
   "dependencies": {
-    "directory-tree": "^3.5.1"
+    "@types/node": "^20.4.5",
+    "chai": "^4.3.7",
+    "command-line-args": "^5.2.1",
+    "command-line-usage": "^7.0.1",
+    "directory-tree": "^3.5.1",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.6"
   }
 }
