@@ -1,2 +1,2 @@
-# fluffytailreddoggo.github.io
+# FluffyTailRedDoggo
 My personal website
