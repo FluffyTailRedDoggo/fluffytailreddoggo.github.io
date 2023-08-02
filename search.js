@@ -1,4 +1,4 @@
-
+import require from 'require'
 
 require(['require', 'directory-tree'], function(require){
     const dirTree = require("directory-tree");
