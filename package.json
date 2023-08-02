@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "crawler": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/crawler": "^1.2.2"
   }
 }
