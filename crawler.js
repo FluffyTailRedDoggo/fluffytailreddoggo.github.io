@@ -1,4 +1,5 @@
-const Crawler = require(['require', 'crawler']);
+require(['require', 'crawler'])
+const Crawler = require('crawler'); 
 
 const c = new Crawler({
     maxConnections: 10,
