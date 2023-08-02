@@ -1,8 +1,8 @@
 {
-  "dependencies": {
-    "crawler": "^1.4.0"
-  },
   "devDependencies": {
     "@types/crawler": "^1.2.2"
+  },
+  "dependencies": {
+    "directory-tree": "^3.5.1"
   }
 }
