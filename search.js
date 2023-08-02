@@ -3,7 +3,7 @@ require(['require', 'directory-tree'], function(require){
     const tree = dirTree("res/", ['.jpg', '.png']);
     
     console.log(tree)
-    
+  
     var default_image = "https://raw.githubusercontent.com/FluffyTailRedDoggo/fluffytailreddoggo.github.io/icons/folder.png"
     
     make_array = function(prefix, basepath, localpath){
@@ -24,7 +24,7 @@ require(['require', 'directory-tree'], function(require){
         })
         return output
     }
-    
+      
     var default_basepath = "https://raw.githubusercontent.com/FluffyTailRedDoggo/fluffytailreddoggo.github.io/"
     var res_folder = 'res/'
     

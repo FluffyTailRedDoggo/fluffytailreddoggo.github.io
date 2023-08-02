@@ -1,5 +1,5 @@
 arr = [
-    {
+    {   
         "title" : "My things",
         "url" : "https://raw.githubusercontent.com/FluffyTailRedDoggo/Art/main/My%20_art_works/nick.jpg" 
     },
