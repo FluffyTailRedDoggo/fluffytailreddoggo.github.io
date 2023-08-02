@@ -19,7 +19,7 @@ const c = new Crawler({
 
 // Queue URLs with custom callbacks & parameters
 c.queue([{
-    uri: 'http://parishackers.org/',
+    uri: 'https://raw.githubusercontent.com/FluffyTailRedDoggo/Art/main/',
     jQuery: false,
 
     // The global callback won't be called
