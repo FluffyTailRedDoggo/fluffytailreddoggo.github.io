@@ -1,4 +1,4 @@
-require(['crawler'], function(crawler){
+require(['crawler'], function(crawler){     
     const Crawler = require('crawler'); 
 
     const c = new Crawler({
