@@ -1,5 +1,5 @@
-import require from 'require'
-
+import { require } from 'require'
+   
 require(['require', 'directory-tree'], function(require){
     const dirTree = require("directory-tree");
     const tree = dirTree("res/", ['.jpg', '.png']);
