@@ -11,5 +11,5 @@ arr = [
 
 $.each(arr, function(i) {
     var templateString = '<div class="card mb-2 box-shadow">    <img class="card-img-top" src="'+ arr[i].url +'" alt="Card image cap">      <div class="card-body">  <h5>' + arr[i].title + '</h5> </p></div> </div>';
-    $('#card-container').append(templateString);
+    $('card-container').append(templateString);
   })
