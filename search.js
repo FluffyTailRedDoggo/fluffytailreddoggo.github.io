@@ -21,6 +21,7 @@ make_array = function(prefix, basepath, localpath){
             })
         }
     })
+    return output
 }
 
 var default_basepath = "https://raw.githubusercontent.com/FluffyTailRedDoggo/fluffytailreddoggo.github.io/"
