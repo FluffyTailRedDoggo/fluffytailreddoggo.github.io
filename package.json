@@ -9,6 +9,7 @@
     "command-line-usage": "^7.0.1",
     "directory-tree": "^3.5.1",
     "mocha": "^10.2.0",
+    "require": "^0.4.4",
     "typescript": "^5.1.6"
   }
 }
